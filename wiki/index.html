@@ -163,6 +163,8 @@ Error message and password prompt
 
 <li>$:/state/plugin-info-896098052-$:/plugins/tiddlywiki/markdown--436478829</li>
 
+<li>$:/state/showeditpreview</li>
+
 <li>$:/state/tab-1749438307</li>
 
 <li>$:/state/tab-2065006209</li>
@@ -370,6 +372,8 @@ Error message and password prompt
 <li>$:/themes/tiddlywiki/snowwhite</li>
 
 <li>$:/themes/tiddlywiki/vanilla</li>
+
+<li>House Rules</li>
 
 </ul>
 </p>
@@ -9784,16 +9788,19 @@ House Rules</pre>
 <div created="20200130203841175" modified="20200130203854867" title="$:/state/plugin-info-896098052-$:/plugins/tiddlywiki/markdown--436478829">
 <pre>readme</pre>
 </div>
+<div created="20200130204104367" modified="20200130204104367" title="$:/state/showeditpreview">
+<pre>yes</pre>
+</div>
 <div created="20200130194721146" modified="20200130203904880" title="$:/state/tab-1749438307">
 <pre>$:/core/ui/ControlPanel/Saving</pre>
 </div>
-<div created="20200130194722856" modified="20200130194724116" title="$:/state/tab-2065006209">
-<pre>$:/core/ui/ControlPanel/Saving/GitHub</pre>
+<div created="20200130194722856" modified="20200130204033733" title="$:/state/tab-2065006209">
+<pre>$:/core/ui/ControlPanel/Saving/DownloadSaver</pre>
 </div>
 <div created="20200130193709168" modified="20200130193849415" title="$:/state/tab/sidebar--595412856">
 <pre>$:/core/ui/SideBar/Open</pre>
 </div>
-<div created="20200130203835167" list="Setting Actors House Rules" modified="20200130203837924" title="$:/StoryList">
+<div created="20200130203835167" list="[[House Rules]] Actors House Rules" modified="20200130204025994" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -10724,6 +10731,42 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
         }
     }
 }</pre>
+</div>
+<div created="20200130204049367" modified="20200130204209967" tags="" title="House Rules" type="text/x-markdown">
+<pre>## Equipment
+
+-   **Quickdraw Bandolier**. Allows a potion to be consumed as a bonus action. Any character with a class ability that already allows them to consume a potion as a bonus action can instead consume the potion as a free action. 3 potion bandolier 50 gp, 5 potion bandolier 150 gp.
+-   **Poison.** A single dose of injury poison can be applied to a slashing or piercing weapon and can be effective for up to 3 successful attacks before being wiped away, or applied to up to 3 pieces of ammunition. Applying the poison is an action, and requires a DC 11 Dexterity (poisoner’s kit) check. Failure. Regardless of how it is applied, the poison becomes inert after 1 minute.
+
+## Magic
+
+-   Scrolls can be cast by non-spellcasters with an Arcana skill check, DC 16 + spell level.
+
+## Overland Travel
+
+1.  Choose a route. Route determines distance (in travel days), danger rating, and navigation and foraging DCs. All checks are made when making camp at the end of the day.
+
+2.  Choose a pace. **One travel day is equal to 3 tics** faster or slower paces increase/decrease the amount of progress made each day time spent on the road. **Travel by mount allows you to move one additional tic**. &lt;!-- Record days 3 tics per row, when you get enough rows to cover the distance you arrive at destination. --&gt;
+
+    -   Slow pace, **move 2 tics**, can use Stealth, gain advantage to Perception and navigation checks, can forage.
+    -   Medium pace, **move 3 tics**, disadvantage to foraging.
+    -   Fast pace, **move 4 tics**, cannot forage, disadvantage to Perception and navigation checks.
+
+3.  Determine danger and roll for random encounters. The travel day is divided into six parts, **morning, afternoon, evening, dusk, midnight, and dawn**. Night time lasts long enough that everyone can take a watch. If there's a random nighttime encounter roll randomly for who's on watch. Danger is rated 1-5; roll 1d6 for each period and a result that's equal to or less than the danger rating there is an encounter.
+
+    -   1, relatively safe; barren landscape or close to civilization
+    -   2, dangerous area
+    -   3, enemy territory
+    -   4, actively patrolled
+    -   5, filled with enemies or monsters actively seeking out intruders
+
+4.  Make camp and roll for navigation and foraging. Both skill checks use **Survival**.
+
+    -   **Navigation DC** ranges from 5-10 for flat, clear terrain to 25-30 for a desert with no way points. DM rolls this check in private. The roll has disadvantage for a fast pace, and advantage for a slow pace. If they fail they've gotten lost somewhere and make no progress. Make a second roll in the morning to see if the navigator notices. See **Getting Lost** below.
+
+    -   **Foraging DC** ranges from 5-10 for verdant forests or lush meadows to 25-30 for barren badlands or deserts. Players roll this check. Success means that PC foraged enough food to feed themselves for the day. Failure means they need to consume rations. If anyone success the party refills water. If everyone fails all water is consumed and party will begin to dehydrate the following day.
+
+5.  Getting lost. If the navigator is aware they are lost they can try to reorient themselves. If not, roll 1d6 to determine a random direction traveled. They may hit a landmark and figure it out; if so let them try to reorient.</pre>
 </div>
 
 </div>
